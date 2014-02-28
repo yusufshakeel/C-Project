@@ -3,7 +3,7 @@ C-Project
 
 C programming
 
-By; Yusuf Shakeel
+By: Yusuf Shakeel
 
 [https://www.facebook.com/yusufshakeel](https://www.facebook.com/yusufshakeel)
 
