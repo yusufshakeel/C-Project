@@ -9,6 +9,6 @@ By: Yusuf Shakeel
 
 [http://www.youtube.com/yusufshakeel](http://www.youtube.com/yusufshakeel)
 
-[http://yusufshakeelblog.blogspot.in/](http://yusufshakeelblog.blogspot.in/)
+[http://yusufshakeelblog.blogspot.in](http://yusufshakeelblog.blogspot.in/)
 
 [https://plus.google.com/+YusufShakeel](https://plus.google.com/+YusufShakeel)
