@@ -6,8 +6,7 @@
 * https://www.youtube.com/yusufshakeel
 *
 * For more detail on Reverse String and Palindrome kindly watch the video
-* http://www.youtube.com/watch?v=UwDhJ9ANP7c&list=PLG6ePePp5vvbcm_C37hhV8NQ8RHIHsSWw
-*
+* https://www.youtube.com/watch?v=UwDhJ9ANP7c
 *
 * In this program I am using getchar() and putchar() to read the string and write the reverse string.
 * I have commented out scanf() and printf(). If you wish you can use that.
