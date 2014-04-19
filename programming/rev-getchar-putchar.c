@@ -12,11 +12,7 @@
 * I have commented out scanf() and printf(). If you wish you can use that.
 * This program is to demonstrate the difference between scanf()-printf() and getchar()-putchar().
 * If you look closely at the code, then you will notice that we need a loop to read and write
-<<<<<<< HEAD
 * string when using getchar() and putchar(), which is not the case with scanf() and printf().
-=======
-* string when we use getchar() and putchar(), which is not the case with scanf() and printf().
->>>>>>> 67bd65057e06826649f998316c9cb963ebc1f803
 *
 * have fun coding :-) 
 */
