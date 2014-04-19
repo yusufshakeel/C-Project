@@ -36,9 +36,7 @@ int main(){
 	}while(tmp != '\n');	//exit loop only when user presses ENTER
 	len--;					//point at the last index where \n character was saved
 	str[len] = '\0';		//replace \n [New Line character] with \0 [NULL character]
-	
-	printf("%d\n", len);
-	
+		
 	//copy str to rev
 	strcpy(rev,str);		//rev will be used to check palindrome
 	
