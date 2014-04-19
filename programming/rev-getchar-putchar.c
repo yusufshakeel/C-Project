@@ -1,15 +1,19 @@
 /**
-* Reverse String and Palindrom - using getchar() and putchar()
+* Reverse String and Palindrome - using getchar() and putchar()
 * Author: Yusuf Shakeel
 * Date: 19-April-2014 Sat
 *
 * https://www.youtube.com/yusufshakeel
 *
+* For more detail on Reverse String and Palindrome kindly watch the video
+* http://www.youtube.com/watch?v=UwDhJ9ANP7c&list=PLG6ePePp5vvbcm_C37hhV8NQ8RHIHsSWw
+*
+*
 * In this program I am using getchar() and putchar() to read the string and write the reverse string.
 * I have commented out scanf() and printf(). If you wish you can use that.
 * This program is to demonstrate the difference between scanf()-printf() and getchar()-putchar().
-* If you look closely at the code, then you will realise that we need a loop to read and write
-* string when we use getchar() and putchar(), which is not the case with scanf() and printf().
+* If you look closely at the code, then you will notice that we need a loop to read and write
+* string when using getchar() and putchar(), which is not the case with scanf() and printf().
 *
 * have fun coding :-) 
 */
