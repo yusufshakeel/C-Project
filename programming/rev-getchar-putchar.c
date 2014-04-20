@@ -42,7 +42,7 @@ int main(){
 	
 	//reverse
 	i = 0;
-	j = len - 1;	//point at 2nd last character i.e., before \n [NULL character]
+	j = len - 1;	//point at 2nd last character i.e., before \0 [NULL character]
 	while(i < j){
 		tmp = str[i];
 		str[i] = str[j];
