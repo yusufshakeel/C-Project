@@ -11,7 +11,7 @@
 * Input			Output
 * "12345"		[1, 2, 3, 4, 5]
 * "007"			[0, 0, 7]
-* "-123"		[-3, 1, 2, 3]				//- sign is discarded
+* "-123"		[-3, 1, 2, 3]				//- sign gives erroneous result
 *
 * strip_special_char() = Works with any type of input string.
 * If the string contains non-digit it is simply ignored.
