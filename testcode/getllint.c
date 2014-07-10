@@ -5,8 +5,7 @@
 #define _gc() getchar_unlocked()
 
 inline long long int getllint(){
-	long long int x = 0;
-	long long int c = _gc();
+	long long int x = 0, c = _gc();
 	while(!(c >= '0' && c <= '9')){
 		c = _gc();
 	}
