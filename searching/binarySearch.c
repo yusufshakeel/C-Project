@@ -9,23 +9,23 @@ int binarySearch(int *a, int n, int key);
 int main(){
 	//variable declaration
 	int arr[10], i, key;
-
+	
 	//input
 	printf("Enter elements of the array: ");
 	for(i = 0; i < 10; i++)
 		scanf("%d", &arr[i]);
 	printf("Enter key: ");
 	scanf("%d", &key);
-
+	
 	//search
 	i = binarySearch(arr, 10, key);
-
+	
 	//output
 	if(i == -1)
 		printf("Key not found.\n");
 	else
 		printf("Key at index: %d\n", i);
-
+		
 	return 0;
 }
 
