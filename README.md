@@ -11,7 +11,7 @@ Date: 21 April 2014 Monday
 
 [http://www.youtube.com/yusufshakeel](http://www.youtube.com/yusufshakeel)
 
-[http://yusufshakeelblog.blogspot.in](http://yusufshakeelblog.blogspot.in/)
+[http://www.dyclassroom.com](http://www.dyclassroom.com)
 
 [https://plus.google.com/+YusufShakeel](https://plus.google.com/+YusufShakeel)
 
