@@ -1,7 +1,7 @@
 #include <stdio.h>
+
 //recursive function for gcd of two numbers.
 int gcd(int x, int y);
-
 
 //iterative function for gcd of two numbers.
 int gcd_iter(int u , int v);
@@ -15,7 +15,7 @@ int main(){
 	g = gcd(a, b);
 
 	//gcd_iter
-	f=gcd_iten(a, b);
+	f=gcd_iter(a, b);
 
 	//in case g is negative, then convert it into positive
 	if(g < 0){
