@@ -3,6 +3,7 @@ recursive and non-recursive
 */
 
 #include <stdio.h>
+#include <cstdlib>
 
 //function declaration
 int fact(int n);
@@ -15,6 +16,8 @@ int main(){
 	//input
 	printf("Enter n:  ");
 	scanf("%d", &n);
+	
+	if(n < 0) exit(0);
 	
 	//recursive fact
 	f = fact(n);
