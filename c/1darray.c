@@ -3,6 +3,8 @@ int main(){
 	//declaring variables
 	int i,sum=0;
 	int num[5];
+	printf("enter the value : "); //user input for value of 'i'
+        scanf("%d", &i);
 
 	//reading user input
 	for(i=0;i<5;i++)
@@ -14,4 +16,4 @@ int main(){
 
 	printf("Sum=%d",sum);
 	return 0;
-}
+} 
