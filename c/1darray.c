@@ -3,7 +3,7 @@ int main(){
 	//declaring variables
 	int i,sum=0;
 	int num[5];
-	printf("enter the value : "); //user input for value of i
+	printf("enter the value : "); //user input for value of 'i'
         scanf("%d", &i);
 
 	//reading user input
