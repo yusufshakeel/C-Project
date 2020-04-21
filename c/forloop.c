@@ -4,6 +4,7 @@ int main(){
 	int i,n;
 
 	//reading value of n
+	printf("Enter n: ");
 	scanf("%d",&n);
 
 	//for loop
