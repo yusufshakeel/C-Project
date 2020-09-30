@@ -2,7 +2,7 @@
 int main(){
 	//declaring variables
 	int i,n;
-
+        printf("Enter value of n:\n")
 	//reading value of n
 	scanf("%d",&n);
 
