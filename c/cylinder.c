@@ -3,7 +3,6 @@
 */
 
 #include <stdio.h>
-#define PI 22/7
 
 //function declaration
 void cylinder(float r, float h, float *csa, float *tsa, float *vol);
@@ -30,7 +29,7 @@ int main(){
 
 //function definition
 void cylinder(float r, float h, float *csa, float *tsa, float *vol){
-	*csa = 2*r*h*PI;
-	*tsa = 2*r*(h+r)*PI;
-	*vol = r*r*h*PI;
+	*csa = 2*r*h*(22.0/7);
+	*tsa = 2*r*(h+r)*(22.0/7);
+	*vol = r*r*h*(22.00/7);
 }
