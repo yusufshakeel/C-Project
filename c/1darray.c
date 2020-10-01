@@ -1,6 +1,9 @@
 #include <stdio.h>
+#include <conio.h>
+
 int main(){
 	//declaring variables
+         clrscr();
 	int i,sum=0;
 	int num[5];
 
