@@ -1,0 +1,70 @@
+#include<stdio.h>
+#include<stdlib.h>
+
+struct node {
+   int  data;
+   struct node *next;
+   struct node *prev;
+   } *head,*tail;
+void create()   /* code creating node */
+ {
+    struct node *node;
+     head =0;
+     int choice =1;
+     struct node *temp;
+     
+     while(choice)
+     {
+         struct node *newnode;
+         newnode =(struct node*)malloc(sizeof(struct node));
+         printf("Enter the data  ");
+         scanf("%d",&(*newnode).data);
+         newnode->next=0;
+         newnode->prev=0;
+         if (head ==0)
+         {
+             head=newnode;
+             temp=newnode;
+         }
+         else
+         
+         {
+             temp->next =newnode;
+             newnode->prev=temp;
+             temp=newnode;
+             
+         }
+        printf("Do you want to comtinue(0,1)?  ");
+        scanf("%d",&choice);
+        
+     }
+     
+ } 
+void display()   / * code for creating node */ 
+{
+   struct node * temp;
+   temp=head;
+   while (temp!= 0)
+   {
+    printf("%d   ",temp->data);         
+    temp=temp->next;         
+    }        
+ }
+int main() 
+{
+ int entry,choice =1;      
+ do
+   { 
+     printf("Enter 1 to create node and 2 to display node  ");
+     scanf("%d",&entry);
+     switch(entry)   /* User choice is taken for performing operation  */
+         {
+             case 1: create();
+             break;
+             case 2: display();
+             break;
+             default:printf("Wrong Entry");
+             break;
+         }
+     }while(1);   
+}
