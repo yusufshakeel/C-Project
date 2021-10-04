@@ -5,7 +5,8 @@ void square(int n);
 void cube(int n);
 float percent60(int n);
 
-int main(){
+int main()
+{
 	//declaring variable
 	int n;
 
@@ -21,15 +22,24 @@ int main(){
 	return 0;
 }
 
+//========================================================================//
+
 //defining functions
-void square(int n){
+void square(int n)
+{
 	printf("Square of %d = %d\n",n,n*n);
 }
 
-void cube(int n){
+//========================================================================//
+
+void cube(int n)
+{
 	printf("Cube of %d = %d\n",n,n*n*n);
 }
 
-float percent60(int n){
+//========================================================================//
+
+float percent60(int n)
+{
 	return 0.6*n;
 }
